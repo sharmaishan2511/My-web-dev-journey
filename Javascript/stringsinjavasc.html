@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript strings</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Heading</h1>
+        <div id="content"></div>
+        <p>
+            Lorem ipsum dolor sit amet c
+            onsectetur adipisicing elit. Suscip
+            it veritatis, dolorem nulla optio veni
+            am aliquam, odit esse inventore officiis l
+            aboriosam recusandae impedit sunt perferendis perspiciatis. Ut obcaecati a 
+            porro odit. Ipsa doloribus veniam temporibus perferendis aperiam earum, dolorem harum ipsum.
+        </p>
+    </div>
+    <script>
+        var str1 = "Yo";
+        var str2 = "Boy";
+        var temp = `${str1} brother ${str2}`;
+        console.log(str1+str2);
+        console.log(temp);
+        console.log(str1.length);
+
+        var y = new String("this is a string");
+        document.getElementById('content').innerHTML = "<h3> This is another heaing </h3>"
+    </script>
+</body>
+</html>

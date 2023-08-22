@@ -1,0 +1,122 @@
+/* CSS Reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS Variables  */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.37;
+    z-index: -1;
+}
+
+#logo{
+    margin: 0px 17px;
+}
+
+#logo img{
+    width: 80px;
+    height: 80px;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 23px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 790px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home::before{
+    content: "";
+    background: url('images/bird.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;
+    border: 2px solid red;
+    z-index: -1;
+}
+
+/* services section  */
+
+#services{
+    display: flex;
+    margin: 12px;
+}
+
+#services .box{
+    border: 2px solid red;
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* Utility classes  */
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.btn{
+    padding: 8px 20px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(192, 118, 118);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}

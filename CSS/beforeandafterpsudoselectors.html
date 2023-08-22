@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            
+        }
+        header::before{
+            content: "";
+            background: url('MyWebsite/img/sculpture-gf8c90460d_1280.jpg') no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .navigation{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 20px 23px;
+        }
+        section{
+            height: 344px;
+            margin: 3px 23px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        /* section::before{
+            content:"this is a content"
+        } */
+        section::after{
+            content:"this is a content"
+        }
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Conatact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to coding</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisi
+            cing elit. Suscipit, molestias. Aperiam nemo
+             omnis repudiandae, possimus tenetur soluta explicabo commodi? Debitis repellendus provident at labo
+            re voluptatibus libero ap
+            eriam doloremque exercitationem alias. Quo blanditiis voluptas aliquam?</p>
+    </section>
+    <hr>
+</body>
+</html>

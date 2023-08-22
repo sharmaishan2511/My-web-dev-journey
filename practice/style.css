@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 5px 20px;
+    padding: 0px 30px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+}
+.navops ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navops ul li{
+    color: black;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 26px 12px;
+}
+.navops ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.sidenav{
+    margin-left: auto ;
+}
+
+.sidenav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidenav ul li{
+    color: black;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 26px 12px;
+}
+.sidenav ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.twomore{
+    padding-left: 40px;
+}
+.twomore ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.twomore ul li{
+    color: black;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 26px 12px;
+}
+.twomore ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    height: 550px;
+    width: 1100px;
+}
+.para{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 100px;
+}
+
+.para p{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 200px;
+}
+
+#one{
+    color: blue;
+}
+
+.gridpics::before{
+    content: "";
+    position: absolute;
+    background-color: #fbffa7;
+    height: 900px;
+    width: 50%;
+    left: 40%;
+    z-index: -1;
+}
+
+.gridpics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 100px;
+}
+  
+.img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video img{
+    height: 800px;
+    width: 50vw;
+}
+
+.grid-container::before{
+    content: "";
+    position: absolute;
+    background-color: #b6ffc0;
+    height: 900px;
+    width: 60vw;
+    z-index: -1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns with equal width */ /* Optional gap between grid items */
+}
+  
+.column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.column .row img{
+    padding: 50px 0px;
+    width: 400px;
+    height:400px;
+}
+
+#special img{
+    width: 500px;
+    height:700px;
+}
+
+.anothaone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anothaone img{
+    height: 550px;
+    width: 1100px;
+}
+
+.gridpics2::before{
+    content: "";
+    position: absolute;
+    background-color: #d5b3ff;
+    height: 800px;
+    width: 50%;
+    left: 20%;
+    z-index: -1;
+}
+
+.gridpics2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 100px;
+}
+  
+.img2 img {
+    width: 500px;
+    height: 500px;
+    display: block;
+}
+.img3 img{
+    display: block;
+    width: 700px;
+    height: 700px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px 60px;
+}
+
+.footer h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+.navop ul li{
+    color: black;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0px;
+}
+.navop ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}

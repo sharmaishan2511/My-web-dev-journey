@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+
+.container h1{
+  font-size: 2.6rem;
+}
+
+.container p{
+  /* border: 2px solid red; */
+  text-align: center;
+  justify-content: center;
+  /* color: rgb(255, 255, 255); */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  width: 70vw;
+}
+
+
+.container::before {
+  content: "";
+  background: url('../images/startup-g36a38a693_1280.jpg') no-repeat center center/cover;
+  border-radius: 2px;
+  /* background-color: black; */
+  position: absolute;
+  width: 90vw;
+  height: 350px;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+/* section  */
+.projectcont{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  height: 200px;
+  /* color: white; */
+  /* width: 90vw; */
+  margin: 90px;
+}
+
+
+.projs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: 40px 20px;
+}
+
+.projs p{
+  padding: 20px 0px;
+  text-align: center;
+}
+

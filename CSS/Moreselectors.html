@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selectors</title>
+    <style>
+        h1{
+            background-color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* div li p{
+            color: magenta;
+            font-weight: bold;
+        } */
+        div > p{      /* If direct child of the div is p */
+            color: magenta;
+            font-weight: bold;
+        }
+        div + p{       /*If the preveous sibling of p is a div i.e a closed div tag or </div> */
+            color: white;
+            background-color: rgb(255, 165, 165);
+        }
+    </style>
+</head>
+<body>
+    <h1>More On Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><p>This is paragraph inside a list </p></li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+</html>
